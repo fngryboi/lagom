@@ -3,6 +3,9 @@
 # Color for top bar, links, etc
 highlight_color: '#ee2269'
 
+# Web browser theme color for supported browsers
+browser_theme_color: '#1ba8e0'
+
 # Profile links on the left sidebar, leave blank to ignore
 social:
   github: fngryboi
