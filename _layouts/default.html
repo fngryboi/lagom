@@ -9,8 +9,17 @@
   <title>{{ site.data.theme.name }} - {{ page.title }}</title>
   <meta name="author" content="{{ site.data.theme.name }}" />
   <meta name="description" content="The blog of {{ site.data.theme.name }}" />
+  
+  <meta name="theme-color" content="{{ site.data.theme.browser_theme_color }}">
+  <!-- Windows Phone -->
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="{{ site.data.theme.browser_theme_color }}">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="{{ site.data.theme.browser_theme_color }}">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="{{ site.data.theme.browser_theme_color }}">
+  
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
-
   <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="/favicon.png">
   <link rel="alternate" type="application/atom+xml" title="{{ site.data.theme.name }}" href="{{site.url}}/atom.xml" />
