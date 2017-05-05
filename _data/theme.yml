@@ -34,3 +34,6 @@ show_disclaimer: false
 
 # Toggle link/icon to view atom feed (/atom.xml) in sidebar
 show_atom_feed: true
+
+# Enable a Twitch.tv player to embed (if the channel is currently streaming)
+show_twitchtv_player: false
