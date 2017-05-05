@@ -2,6 +2,7 @@
 Please don't fork this project as it contains my personal blog information such as my Google Analytics and blog posts. If you want to replicate the features that I added on top of the original theme (http://github.com/swanson/lagom) there will be links below here to each added feature that I host on their own repositories (*work in progress*).
 
 1. Browser Theme Color meta tags (_layouts/default.html) and a browser theme color variable (data/theme.yml) added, more info found here: http://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-android-chrome-v/
+2. A boolean (show_twitchtv_player) for if the user wants to use a smart embed Twitch.tv player (data/theme.yml) (if the user sets it to true, channel_name will have to be set as well in data/theme.yml). Also added a if statement in (_layouts/default.html) for the show_twitchtv_player boolean.  
 
 # Lagom
 
