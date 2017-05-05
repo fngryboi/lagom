@@ -1,5 +1,7 @@
 # DISCLAIMER:
-Please don't fork this project as it contains my personal blog information such as my Google Analytics and blog posts. If you want to replicate the features that I added on top of the original theme (http://github.com/swanson/lagom) there will be links below here to each added feature that I host on their own repositories (*coming soon*).
+Please don't fork this project as it contains my personal blog information such as my Google Analytics and blog posts. If you want to replicate the features that I added on top of the original theme (http://github.com/swanson/lagom) there will be links below here to each added feature that I host on their own repositories (*work in progress*).
+
+1. Browser Theme Color meta tags and a browser theme color variable (data/theme.yml) added
 
 # Lagom
 
