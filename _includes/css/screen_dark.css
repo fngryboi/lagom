@@ -121,8 +121,8 @@ nav h1, nav h2 {
 }
 
 #post pre {
-  border: 1px solid #959595;
-  background-color: #000000;
+  border: 1px solid #393939;
+  background-color: #55556f;
   padding: 0 .4em;
   margin-bottom: 20px !important;
 }
