@@ -7,7 +7,7 @@ A theme I use on my personal blog over on https://fngryboi.github.io that is bas
 4. Added a dark theme, which you can toggle in data/theme.yml - with it's own syntax theme as well.
 5. Added Youtube as a social link (go to youtube > My channel and copy your unique string right after "https://www.youtube.com/channel/" in the url.
 
-Easiest way to get this theme is to fork this project and rename it to <yourgithubusername>.github.io, and to easily make new posts you can use http://prose.io
+Easiest way to get this theme is to fork this project and rename it to `<yourgithubusername>.github.io`, and to easily make new posts you can use http://prose.io
 
 With the dark theme enabled and Twitch stream enabled it would look something like this when the user is streaming on Twitch.tv, you can of course customize the pink and blue inside the data/theme.yml. Pink is the theme color, and blue is the browser color.
 
