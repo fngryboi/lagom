@@ -24,6 +24,15 @@
   <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="/favicon.png">
   <link rel="alternate" type="application/atom+xml" title="{{ site.data.theme.name }}" href="{{site.url}}/atom.xml" />
+    
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="path/to/jquery.fitvids.js"></script>
+  <script>
+    $(document).ready(function(){
+      // Target your .container, .wrapper, .post, etc.
+      $(".content").fitVids();
+    });
+  </script>
 
   {% if site.data.theme.dark_theme %}
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/all_dark.css">
