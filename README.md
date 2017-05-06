@@ -11,7 +11,7 @@ Easiest way to get this theme is to fork this project and rename it to <yourgith
 
 With the dark theme enabled and Twitch stream enabled it would look something like this when the user is streaming on Twitch.tv, you can of course customize the pink and blue inside the data/theme.yml. Pink is the theme color, and blue is the browser color.
 
-![An idea what it looks like](http://imgur.com/a/caRfn)
+![An idea what it looks like](http://i.imgur.com/3qZR1EB.png?1)
 
 # Lagom
 
