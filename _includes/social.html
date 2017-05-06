@@ -71,6 +71,12 @@ Follow me:
     <i class="fa fa-youtube-square"></i>
   </a>
   {% endif %}
+    
+  {% if site.data.theme.social.twitchtv %}
+  <a title="{{ site.data.theme.name }} on Twitch.tv" href="http://www.twitch.tv/{{ site.data.theme.social.twitchtv }}">
+    <i class="fa fa-twitch"></i>
+  </a>
+  {% endif %}
 
   {% if site.data.theme.show_atom_feed %}
   <a title="Atom feed" id="atom" href="/atom.xml">
