@@ -50,4 +50,4 @@ And finally just enough weird to satiate your Internet Weirdness of Today:
 
 ![weeb stuff](http://i.imgur.com/PLbrIXl.jpg)
 
-![](http://i.imgur.com/Fk3dPEt.mp4)
+![](http://i.imgur.com/s4CdTWM.png)
