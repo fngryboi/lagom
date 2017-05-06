@@ -9,6 +9,10 @@ A theme I use on my personal blog over on https://fngryboi.github.io that is bas
 
 Easiest way to get this theme is to fork this project and rename it to <yourgithubusername>.github.io, and to easily make new posts you can use http://prose.io
 
+With the dark theme enabled and Twitch stream enabled it would look something like this when the user is streaming on Twitch.tv, you can of course customize the pink and blue inside the data/theme.yml. Pink is the theme color, and blue is the browser color.
+
+![An idea what it looks like](http://imgur.com/a/caRfn)
+
 # Lagom
 
 > #### *Lagom* is a Swedish word with no direct English equivalent, meaning "just the right amount"
