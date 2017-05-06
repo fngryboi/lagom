@@ -9,9 +9,9 @@ html, body {
 
 body {
   font-size: 16px;
-  {% if site.data.theme.social.gravatar %}
+  {% if site.data.theme.dark_theme %}
   background-color: black;
-  color: #fff;
+  color: #ffffff;
   {% else %}
   background-color: white;
   color: #222222;
