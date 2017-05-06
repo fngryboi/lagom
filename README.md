@@ -1,17 +1,18 @@
 # Lagom+
 A theme I use on my personal blog over on https://fngryboi.github.io that is basically an extended version of the original theme found here: https://github.com/swanson/lagom
 
-1. Browser Theme Color meta tags (_layouts/default.html) and a browser theme color variable (data/theme.yml) added, more info found here: http://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-android-chrome-v/
+1. Browser Adress Bar Theme Color with a browser theme color variable located in `_data/theme.yml`, more info found [here](http://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-android-chrome-v/). Most visible in the mobile screenshot below
 2. Implemented [TwitchCleverEmbed](https://github.com/fngryboi/TwitchCleverEmbed), with a boolean (show_twitchtv_player) to toggle whether you want to embed the twitch stream or not when the user is live (twitchtv must have a username set in data/theme.yml).
-3. Implemented FitVids.js for responsive videos and made all images go 100% wide inside .content
+3. Implemented [FitVids.js](https://fitvidsjs.com) for responsive videos and made all images go 100% wide inside .content
 4. Added a dark theme, which you can toggle in data/theme.yml - with it's own syntax theme as well.
-5. Added Youtube as a social link (go to youtube > My channel and copy your unique string right after "https://www.youtube.com/channel/" in the url.
+5. Added Youtube as a social link (go to Youtube.com > My channel and copy your unique string right after "https://www.youtube.com/channel/" in the url.
 
-Easiest way to get this theme is to fork this project and rename it to `<yourgithubusername>.github.io`, and to easily make new posts you can use http://prose.io
+Easiest way to get this website is to fork this project and rename it to `<yourgithubusername>.github.io`, setup your personal information in `_layout/sidebar.html`, `_data/theme.yml` and log in with http://prose.io and head to the `_posts` directory to start making posts.
 
 With the dark theme enabled and Twitch stream enabled it would look something like this when the user is streaming on Twitch.tv, you can of course customize the pink and blue inside the data/theme.yml. Pink is the theme color, and blue is the browser color.
 
-![An idea what it looks like](http://i.imgur.com/3qZR1EB.png?1)
+![An idea what it looks like on PC](http://i.imgur.com/3qZR1EB.png)
+![On mobile, Twitch gets embedded here as well](http://i.imgur.com/Dw7zXte.png)
 
 # Lagom
 
