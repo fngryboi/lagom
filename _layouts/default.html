@@ -37,6 +37,9 @@
       // Target your .container, .wrapper, .post, etc.
       $(".content").fitVids();
     });
+      
+     $("#twitch").fitVids({ customSelector: "iframe[src^='http://twitch.tv'], iframe[src^='https://twitch.tv']"});
+  // Selectors are comma separated, just like CSS
   </script>
 </head>
 <body>
