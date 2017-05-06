@@ -164,6 +164,10 @@ nav h1, nav h2 {
   min-height: 400px;
 }
 
+.content img {
+    max-width: 100%;
+}
+
 .footer {
   width: 100%;
 }
