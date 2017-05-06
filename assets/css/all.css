@@ -1,7 +1,12 @@
 ---
 ---
-{% include css/base.css %}
+{% if site.data.theme.dark_theme %}
+{% include css/base_dark.css %}
+{% include css/screen_dark.css %}
+{% else %}
+{% include css/base_light.css %}
+{% include css/screen_light.css %}
+{% endif %}
 {% include css/skeleton.css %}
-{% include css/screen.css %}
 {% include css/layout.css %}
 {% include css/syntax.css %}
