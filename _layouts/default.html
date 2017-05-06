@@ -25,7 +25,14 @@
   <link rel="shortcut icon" href="/favicon.png">
   <link rel="alternate" type="application/atom+xml" title="{{ site.data.theme.name }}" href="{{site.url}}/atom.xml" />
     
-  
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.fitvids.js"></script>
+  <script>
+    $(document).ready(function(){
+      // Target your .container, .wrapper, .post, etc.
+      $(".content").fitVids();
+    });
+  </script>
 
   {% if site.data.theme.dark_theme %}
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/all_dark.css">
@@ -55,15 +62,5 @@
   </div>
 
 {% include analytics.html %}
-    
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="path/to/jquery.fitvids.js"></script>
-  <script>
-    $(document).ready(function(){
-      // Target your .container, .wrapper, .post, etc.
-      $(".content").fitVids();
-    });
-  </script>
-    
 </body>
 </html>
