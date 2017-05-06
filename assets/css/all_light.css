@@ -5,4 +5,4 @@
 {% include css/screen_light.css %}
 {% include css/layout.css %}
 {% include css/syntax_light.css %}
-{% include css/font-awesome.min.css %}
+{% include css/font-awesome/css/font-awesome.min.css %}
