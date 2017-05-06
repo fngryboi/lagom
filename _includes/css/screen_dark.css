@@ -166,6 +166,7 @@ nav h1, nav h2 {
 
 .content img {
     max-width: 100%;
+    min-width: 100%;
 }
 
 .footer {
