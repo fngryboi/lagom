@@ -1,6 +1,6 @@
 <script src= "http://player.twitch.tv/js/embed/v1.js"></script>
 <div id="twitch" class="hide">
-<div id="target"></div>
+<div id="embedtarget"></div>
 </div>
 <script type="text/javascript">
     var options = {
@@ -9,16 +9,7 @@
         height: 360,
 	};
     
-    var player = new Twitch.Player("target", options);
-    
-    player.addEventListener(Twitch.Player.ONLINE, handleOnline);
-    function handleOnline() {        
-        document.getElementById("twitch").classList.remove('hide');
-        player.removeEventListener(Twitch.Player.ONLINE, handleOnline);
-        player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
-        
-        player.setMuted(false);
-    }
+    var player = new Twitch.Player("embedtarget", options);
     
     player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
     function handleOffline() {
@@ -29,4 +20,12 @@
         player.setMuted(true);
     }
     
+    player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+    function handleOnline() {        
+        document.getElementById("twitch").classList.remove('hide');
+        player.removeEventListener(Twitch.Player.ONLINE, handleOnline);
+        player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+        
+        player.setMuted(false);
+    }
 </script>
