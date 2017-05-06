@@ -12,7 +12,7 @@ Easiest way to get this website is to fork this project and rename it to `<yourg
 With the dark theme enabled and Twitch stream enabled it would look something like this when the user is streaming on Twitch.tv, you can of course customize the pink and blue inside the data/theme.yml. Pink is the theme color, and blue is the browser color.
 
 ![An idea what it looks like on PC](http://i.imgur.com/3qZR1EB.png)
-![On mobile, Twitch gets embedded here as well](http://i.imgur.com/Dw7zXte.png)
+![On mobile, Twitch gets embedded here as well](http://i.imgur.com/Dw7zXte.png?1)
 
 # Lagom
 
