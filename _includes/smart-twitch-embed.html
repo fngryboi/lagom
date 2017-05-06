@@ -1,15 +1,12 @@
 <script src= "http://player.twitch.tv/js/embed/v1.js"></script>
-<div id="TwitchEmbed">
-
-    <iframe src="https://player.twitch.tv/?channel={{ site.data.theme.social.twitchtv }}" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
-
-</div>
+<div id="TwitchEmbed"></div>
 <script type="text/javascript">
-	var options = {
-		width: 854,
-		height: 480,
+	var goOffline = {
+		width: 640,
+		height: 360,
 		channel: "{{ site.data.theme.social.twitchtv }}",
 	};
+    
 	var player = new Twitch.Player("TwitchEmbed", options);
-	player.setVolume(0.0);
+    
 </script>
