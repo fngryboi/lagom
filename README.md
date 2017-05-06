@@ -1,4 +1,6 @@
 # Lagom+
+[![Live Demo](https://img.shields.io/badge/view-live--demo-blue.svg?style=flat-square)](http://fngryboi.github.io)
+
 A theme I use on my personal blog over on https://fngryboi.github.io that is basically an extended version of the original theme found here: https://github.com/swanson/lagom
 
 1. Browser Adress Bar Theme Color with a browser theme color variable located in `_data/theme.yml`, more info found [here](http://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-android-chrome-v/). Most visible in the mobile screenshot below
