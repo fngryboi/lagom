@@ -31,7 +31,14 @@
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/all_light.css">
   {% endif %}
 
-  
+  <script src="{{ site.github.url }}assets/js/jquery.min.js"></script>
+  <script src="{{ site.github.url }}assets/js/jquery.fitvids.js"></script>
+  <script>
+    $(document).ready(function(){
+      // Target your .container, .wrapper, .post, etc.
+      $(".content").fitVids();
+    });
+  </script>
 </head>
 <body>
   <div class="container">
@@ -53,14 +60,7 @@
   </div>
 
     
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.fitvids.js"></script>
-  <script>
-    $(document).ready(function(){
-      // Target your .container, .wrapper, .post, etc.
-      $(".content").fitVids();
-    });
-  </script>
+
 {% include analytics.html %}
 </body>
 </html>
