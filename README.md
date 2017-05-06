@@ -1,9 +1,13 @@
-# DISCLAIMER:
-Please don't fork this project as it currently contains my personal blog information such as my Google Analytics and blog posts, however if you star this I will make sure all of that is removed and I'll host my own blog on a duplicate of this one once I've added everything I feel is missing. If you want to replicate the features that I added on top of the original theme (http://github.com/swanson/lagom) there will be links below here to each added feature that I host on their own repositories (*work in progress*).
+# Lagom+
+A theme I use on my personal blog over on https://fngryboi.github.io that is basically an extended version of the original theme found here: https://github.com/swanson/lagom
 
 1. Browser Theme Color meta tags (_layouts/default.html) and a browser theme color variable (data/theme.yml) added, more info found here: http://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-android-chrome-v/
-2. A boolean (show_twitchtv_player) for if the user wants to use a smart embed Twitch.tv player (data/theme.yml) (if the user sets it to true, channel_name will have to be set as well in data/theme.yml). Also added a if statement in (_layouts/default.html) for the show_twitchtv_player boolean.
-3. Implemented FitVids.js and a maximum image width within .content to make sure videos and images will stay within that div class and not span outside in case it's too high resolution.
+2. A boolean (show_twitchtv_player) for if the user wants to use Clever Twitch.tv Embed (data/theme.yml), if the user sets it to true, channel_name will have to be set as well in data/theme.yml. By doing this your stream will display when you are live and go away when you are offline. The embedded video is also responsive (16:9 aspect ratio). The video will appear on the right side above Blog Posts.
+3. Implemented FitVids.js for responsive videos and made all images go 100% wide inside .content
+4. Added a dark theme, which you can toggle in data/theme.yml - with it's own syntax theme as well.
+5. Added Youtube as a social link (go to youtube > My channel and copy your unique string right after "https://www.youtube.com/channel/" in the url.
+
+Easiest way to get this theme is to fork this project and rename it to <yourgithubusername>.github.io, and to easily make new posts you can use http://prose.io
 
 # Lagom
 
