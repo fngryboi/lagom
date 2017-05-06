@@ -6,7 +6,7 @@ A theme I use on my personal blog over on https://fngryboi.github.io that is bas
 1. Browser Adress Bar Theme Color with a browser theme color variable located in `_data/theme.yml`, more info found [here](http://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-android-chrome-v/). Most visible in the mobile screenshot below
 2. Implemented [TwitchCleverEmbed](https://github.com/fngryboi/TwitchCleverEmbed), with a boolean (show_twitchtv_player) to toggle whether you want to embed the twitch stream or not when the user is live (twitchtv must have a username set in data/theme.yml).
 3. Implemented [FitVids.js](https://fitvidsjs.com) for responsive videos and made all images go 100% wide inside .content
-4. Added a dark theme, which you can toggle in data/theme.yml - with it's own syntax theme as well. The original theme can be found [here](http://github.com/jwarby/jekyll-pygments-themes/blob/master/monokai.css)
+4. Added a dark theme, which you can toggle in data/theme.yml - with it's own syntax theme as well. The original theme can be found [here](http://github.com/jwarby/jekyll-pygments-themes/blob/master/monokai.css).
 5. Added Youtube as a social link (go to Youtube.com > My channel and copy your unique string right after "https://www.youtube.com/channel/" in the url.
 
 Easiest way to get this website is to fork this project and rename it to `<yourgithubusername>.github.io`, setup your personal information in `_layout/sidebar.html`, `_data/theme.yml` and log in with http://prose.io and head to the `_posts` directory to start making posts.
