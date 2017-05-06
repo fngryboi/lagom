@@ -11,7 +11,14 @@
     
     var player = new Twitch.Player("embedtarget", options);
     
-    player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+    player.addEventListener(Twitch.Player.READY, initiate)
+    function initiate() {
+        player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+        player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+        
+        player.removeEventListener(Twitch.Player.READY, initiate);
+    }
+    
     function handleOnline() {        
         document.getElementById("twitch").classList.remove('hide');
         player.removeEventListener(Twitch.Player.ONLINE, handleOnline);
@@ -20,7 +27,6 @@
         player.setMuted(false);
     }
     
-    player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
     function handleOffline() {
         document.getElementById("twitch").classList.add('hide');
         player.removeEventListener(Twitch.Player.OFFLINE, handleOffline);
