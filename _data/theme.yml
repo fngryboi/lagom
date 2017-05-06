@@ -35,6 +35,9 @@ show_disclaimer: false
 # Toggle link/icon to view atom feed (/atom.xml) in sidebar
 show_atom_feed: true
 
+# Enable dark theme, if false use the standard Lagom theme colors.
+dark_theme: false
+
 # Enable a Twitch.tv player to embed (if the channel is currently streaming) and channel name
 show_twitchtv_player: false
 channel_name: 'fngryboi'
