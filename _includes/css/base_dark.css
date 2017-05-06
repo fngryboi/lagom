@@ -73,30 +73,30 @@
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 	h5 { font-size: 17px; line-height: 24px; }
 	h6 { font-size: 14px; line-height: 21px; }
-	.subheader { color: #777; }
+	.subheader { color: #f5f5f5; }
 
 	p { margin: 0 0 20px 0; }
 	p img { margin: 0; }
-	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+	p.lead { font-size: 21px; line-height: 27px; color: #f5f5f5;  }
 
 	em { font-style: italic; }
-	strong { font-weight: bold; color: #333; }
+	strong { font-weight: bold; color: #d3d3d3; }
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
-	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #f5f5f5; font-style: italic; }
 	blockquote { margin: 0px; padding: 0px 20px 0 15px; border-left: 2px solid #ddd; }
-	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote cite { display: block; font-size: 12px; color: #d8d8d8; }
 	blockquote cite:before { content: "\2014 \0020"; }
 	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: {{ site.colors.highlight }}; }
 
-	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+	hr { border: solid #676767; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
 
 /* #Links
 ================================================== */
-	a, a:visited { color: #333; text-decoration: underline; outline: 0; }
-	a:hover, a:focus { color: #000; }
+	a, a:visited { color: #cbcbcb; text-decoration: underline; outline: 0; }
+	a:hover, a:focus { color: #afafaf; }
 	p a, p a:visited { line-height: inherit; }
 
 
