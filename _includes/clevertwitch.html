@@ -1,0 +1,32 @@
+<script src= "http://player.twitch.tv/js/embed/v1.js"></script>
+<div id="twitch" class="hide">
+<div id="target"></div>
+</div>
+<script type="text/javascript">
+    var options = {
+		channel: "fngryboi",
+        width: 640,
+        height: 360,
+	};
+    
+    var player = new Twitch.Player("target", options);
+    
+    player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+    function handleOnline() {        
+        document.getElementById("twitch").classList.remove('hide');
+        player.removeEventListener(Twitch.Player.ONLINE, handleOnline);
+        player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+        
+        player.setMuted(false);
+    }
+    
+    player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+    function handleOffline() {
+        document.getElementById("twitch").classList.add('hide');
+        player.removeEventListener(Twitch.Player.OFFLINE, handleOffline);
+        player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+        
+        player.setMuted(true);
+    }
+    
+</script>
