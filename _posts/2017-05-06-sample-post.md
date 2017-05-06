@@ -2,7 +2,8 @@
 layout: post
 title: Sample Post
 categories:
-- blog
+  - blog
+published: true
 ---
 
 Tattooed roof party *vinyl* freegan single-origin coffee wayfarers tousled, umami yr 
@@ -42,3 +43,5 @@ class User < ActiveRecord::Base
 end
 
 {% endhighlight %}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wQBtzNCuCAA" frameborder="0" allowfullscreen></iframe>
