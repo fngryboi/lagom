@@ -20,6 +20,8 @@ social:
   #gplus: 
   #gravatar: 
   #flickr: 
+  # Youtube channel id, the one that follows after https://www.youtube.com/channel/
+  youtube: UC72O78GQap-LhRbBCj2TjeA
 
 # "Hi, I'm _______"
 name: fngryboi
