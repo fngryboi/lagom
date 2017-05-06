@@ -1,14 +1,15 @@
 <script src= "http://player.twitch.tv/js/embed/v1.js"></script>
 <div id="TwitchEmbed"></div>
 <script type="text/javascript">
-	var options = {
+	var initiate = {
 		width: 640,
-		height: 360,
+		height: 0,
 		channel: "{{ site.data.theme.social.twitchtv }}",
 	};
     
-	var player = new Twitch.Player("TwitchEmbed", options);
-    
+	var player = new Twitch.Player("TwitchEmbed", initiate);
+    player.setVolume(0);
+    player.pause();
     
     
     
