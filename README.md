@@ -2,7 +2,7 @@
 A theme I use on my personal blog over on https://fngryboi.github.io that is basically an extended version of the original theme found here: https://github.com/swanson/lagom
 
 1. Browser Theme Color meta tags (_layouts/default.html) and a browser theme color variable (data/theme.yml) added, more info found here: http://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-android-chrome-v/
-2. A boolean (show_twitchtv_player) for if the user wants to use Clever Twitch.tv Embed (data/theme.yml), if the user sets it to true, channel_name will have to be set as well in data/theme.yml. By doing this your stream will display when you are live and go away when you are offline. The embedded video is also responsive (16:9 aspect ratio). The video will appear on the right side above Blog Posts.
+2. Implemented [TwitchCleverEmbed](https://github.com/fngryboi/TwitchCleverEmbed), with a boolean (show_twitchtv_player) to toggle whether you want to embed the twitch stream or not when the user is live (twitchtv must have a username set in data/theme.yml).
 3. Implemented FitVids.js for responsive videos and made all images go 100% wide inside .content
 4. Added a dark theme, which you can toggle in data/theme.yml - with it's own syntax theme as well.
 5. Added Youtube as a social link (go to youtube > My channel and copy your unique string right after "https://www.youtube.com/channel/" in the url.
