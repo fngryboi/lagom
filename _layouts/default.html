@@ -38,7 +38,7 @@
       $(".content").fitVids();
     });
       
-     $(".content").fitVids({ customSelector: "iframe[src^='blob:http://twitch.tv'], iframe[src^='blob:https://twitch.tv']"});
+     $(".content").fitVids({ customSelector: "iframe[src*='http://twitch.tv'], iframe[src*='https://twitch.tv']"});
   // Selectors are comma separated, just like CSS
   </script>
 </head>
