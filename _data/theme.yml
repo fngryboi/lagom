@@ -3,23 +3,28 @@
 # Color for top bar, links, etc
 highlight_color: '#ee2269'
 
+# Alternate color for selection as well as boolean for custom selection color
+nonetheme_selection_color: false
+selection_color: '#000000'
+selection_text_color: '#ffffff'
+
 # Web browser theme color for supported browsers
 browser_theme_color: '#1ba8e0'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
   github: fngryboi
-  #bitbucket: 
-  #hacker_news: 
-  #stackexchange: 
-  #stackoverflow: 
+  #bitbucket:
+  #hacker_news:
+  #stackexchange:
+  #stackoverflow:
   twitter: fngryboi
-  #facebook: 
-  #tumblr: 
-  #linkedin: 
-  #gplus: 
-  #gravatar: 
-  #flickr: 
+  #facebook:
+  #tumblr:
+  #linkedin:
+  #gplus:
+  #gravatar:
+  #flickr:
   # Youtube channel id, the one that follows after https://www.youtube.com/channel/
   #youtube:
   twitchtv: fngryboi

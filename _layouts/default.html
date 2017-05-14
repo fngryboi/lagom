@@ -23,21 +23,39 @@
   <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="/favicon.png">
   <link rel="alternate" type="application/atom+xml" title="{{ site.data.theme.name }}" href="{{site.url}}/atom.xml" />
-    
+
   {% if site.data.theme.dark_theme %}
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/all_dark.css">
   {% else %}
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/all_light.css">
   {% endif %}
 
-  <script src="{{ site.github.url }}/assets/js/jquery.min.js"></script>
-  <script src="{{ site.github.url }}/assets/js/jquery.fitvids.js"></script>
-  <script>
-    $(document).ready(function(){
-      // Target your .container, .wrapper, .post, etc.
-      $(".content").fitVids();
-    });
-  </script>
+  <script src="{{ site.github.url }}/assets/js/superembed.min.js"></script>
+
+  {% if site.data.theme.nonetheme_selection_color %}
+  <style>
+  ::selection {
+    background: {{ site.data.theme.selection_color }}; /* WebKit/Blink Browsers */
+    color: {{ site.data.theme.selection_text_color }};
+  }
+  ::-moz-selection {
+    background: {{ site.data.theme.selection_color }}; /* Gecko Browsers */
+    color: {{ site.data.theme.selection_text_color }};
+  }
+  </style>
+  {% else %}
+  <style>
+  ::selection {
+    background: {{ site.data.theme.highlight_color }}; /* WebKit/Blink Browsers */
+    color: {{ site.data.theme.selection_text_color }};
+  }
+  ::-moz-selection {
+    background: {{ site.data.theme.highlight_color }}; /* Gecko Browsers */
+    color: {{ site.data.theme.selection_text_color }};
+  }
+  </style>
+  {% endif %}
+
 </head>
 <body>
   <div class="container">
@@ -49,7 +67,7 @@
         {% if site.data.theme.show_twitchtv_player %}
             {% include clevertwitch.html %}
         {% endif %}
-        
+
       {{ content }}
 
       <div class="footer">
@@ -58,7 +76,7 @@
     </div>
   </div>
 
-    
+
 
 {% include analytics.html %}
 </body>
